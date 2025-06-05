@@ -41,7 +41,7 @@ This guide explains how to use the script in the `Dynamo14324/github-bot` reposi
     *   **Recommended:** Remove the token from the URL in `index.js`:
         ```javascript
         // Change this:
-        const remote = `https://REMOVED_TOKEN@github.com/Dynamo14324/github-bot.git`;
+        const remote = `https://<YOUR_GITHUB_PAT>@github.com/USERNAME/github-bot.git`;
         // To this (replace USERNAME with your GitHub username):
         const remote = `https://github.com/USERNAME/github-bot.git`; 
         ```
